@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Wcisnij 1 (Lucek) Wcisnij 2 (Laura) Wcisnij 3 prezstawienie");
         }
     }
 }

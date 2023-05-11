@@ -10,7 +10,12 @@ namespace ReferenceAndClass
     {
         public string Name = "";
         public int EarSize = 0;
-
+        //Constructor 
+        public Elephant(string name, int earSize)
+        {
+            Name = name;
+            EarSize = earSize;
+        }
         public void WhoAmI()
         {
             Console.WriteLine("Na imie mam: " + Name);
