@@ -9,7 +9,7 @@ namespace ReferenceAndClass
     internal class Elephant
     {
         public string Name = "";
-        public int EarSize;
+        public int EarSize = 0;
 
         public void WhoAmI()
         {
