@@ -24,8 +24,8 @@
                 else if(presedKey == '3')
                 {
                     Elephant teporary = Lucek;
-                    Laura = Lucek;
-                    Lucek = teporary;
+                    Lucek = Laura;
+                    Laura = teporary;
                     Console.WriteLine("Referencje zostaly przestawione");
                 }
 
